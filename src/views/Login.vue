@@ -24,10 +24,10 @@
                 Login: {
                     grant_type:'password',
                     client_id:'2',
-                    client_secret:'Kn9zNRji5dCRKkMVFZeTJXWYONqc2TTXafEDby1k',
+                    client_secret:'v4m9cMBl5wR5u0vnDW1FfhICQWmUsSWOU3oRPdgW',
                     scope:'',
                     email: '317559272@qq.com',
-                    password: '4988yuji'
+                    password: ''
                 },
                 rules2: {
                     email: [

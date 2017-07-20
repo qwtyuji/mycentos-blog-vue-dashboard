@@ -1,6 +1,6 @@
 import axios from "axios";
 
-axios.defaults.baseURL = 'http://app.dev/api';
+axios.defaults.baseURL = 'http://api.mycentos.com/api';
 axios.defaults.headers.common['Authorization'] = 'Bearer ' + sessionStorage.getItem('access_token');
 axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //获取用户信息
