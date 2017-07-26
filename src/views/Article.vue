@@ -72,7 +72,7 @@
                 </el-form-item>
                 <el-form-item label="略缩图">
                     <el-upload
-                            action="http://app.dev/api/article/pic"
+                            action="http://api.mycentos.com/api/article/pic"
                             :headers="headers"
                             :on-success="handleAddSuccess"
                             :on-preview="handlePreview"
@@ -129,7 +129,7 @@
                 </el-form-item>
                 <el-form-item label="略缩图">
                     <el-upload
-                            action="http://app.dev/api/article/pic"
+                            action="http://api.mycentos.com/api/article/pic"
                             :headers="headers"
                             :on-success="handleEditSuccess"
                             :on-preview="handlePreview"

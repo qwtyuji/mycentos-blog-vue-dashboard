@@ -16,6 +16,7 @@ Vue.use(VueRouter)
 Vue.use(Vuex)
 Vue.use(mavonEditor)
 const router = new VueRouter({
+    mode: 'history',
     routes
 })
 

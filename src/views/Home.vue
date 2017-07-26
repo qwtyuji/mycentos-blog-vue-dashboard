@@ -100,7 +100,7 @@
                     <el-form-item label="图像" prop="avatar">
                         <el-upload
                                 class="avatar-uploader"
-                                action="http://app.dev/api/user/upavatar"
+                                action="http://api.mycentos.com/api/user/upavatar"
                                 :headers="headers"
                                 :show-file-list="false"
                                 :on-success="handleAvatarSuccess"
